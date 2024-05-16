@@ -1,0 +1,90 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: lightgray;
+  
+}
+
+
+.card
+{
+  background-color: white;
+  width: 55%;
+  min-width: 550px;
+  padding: 50px;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  top: 50%;
+  left: 50%;
+  border-radius: 8px;
+}
+
+
+
+h1
+{
+  background-color:white;
+  font-size: 30px important;
+  margin-bottom: 2rem;
+  font: weiight 700px;
+  color: black;
+
+}
+
+
+
+.currency_exchange
+{
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+}
+
+
+.input_container
+{
+  width:30%;
+  height: fit-content;
+  position: relative;
+  display: flex;
+  flex-direction:column ;
+  gap: 10px;
+  background-color: white
+}
+
+.input_lable
+{
+  font-size: 0.95rem;
+  color: #000;
+  font-weight: 600;
+  background-color: white;
+}
+
+
+.input_field
+{
+  width: auto;
+  height: 60px;
+  background-color: white;
+  padding: 0 0 0 40px;
+  border-radius: 7px;
+  outline: none;
+}
+
+.output
+{
+  background-color: white;
+}
+ 
+h2
+{
+   width: 50%;
+   margin-top: 20px;
+   background-color:lightgray;
+   padding: 26px;
+   border-radius: 10px;
+
+}
+
